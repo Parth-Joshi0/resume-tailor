@@ -1,0 +1,77 @@
+{
+  "project_id": "nurse-ai-followup",
+  "title": "AI-Powered Nurse Appointment Follow-Up System",
+  "type": "project",
+  "timeframe": "Jan 2026",
+  "status": "completed",
+
+  "summary": "Built an AI-driven outbound calling system that automates patient appointment confirmations and rescheduling for nurses, reducing manual follow-up workload and improving scheduling efficiency.",
+
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "SQL",
+    "PostgreSQL",
+    "Supabase",
+    "React",
+    "JavaScript",
+    "Twilio",
+    "ElevenLabs",
+    "WebSockets"
+  ],
+  "domains": [
+    "Healthcare",
+    "AI Automation",
+    "Voice Interfaces",
+    "Backend Systems",
+    "Full-Stack Development"
+  ],
+  "skills": [
+    "Backend Development",
+    "Frontend Development",
+    "API Design",
+    "Asynchronous Programming",
+    "Database Design",
+    "System Integration",
+    "Healthcare Workflow Optimization"
+  ],
+
+  "metrics": {
+    "manual_followup_reduction": "Automated 100% of appointment confirmation calls",
+    "latency": "Real-time voice interaction via WebSockets",
+    "scalability": "Designed to support concurrent outbound calls"
+  },
+
+  "links": {
+    "github": "https://github.com/your-username/nurse-ai-followup",
+    "demo": "",
+    "docs": ""
+  },
+
+  "bullet_points": [
+    {
+      "id": "bp-1",
+      "text": "Designed and built an AI-powered outbound calling system that automates nurse-led appointment confirmations and rescheduling using natural voice interactions.",
+      "skills": ["Python", "FastAPI", "Twilio", "ElevenLabs"],
+      "impact": "high",
+      "seniority_level": "intern",
+      "keywords": ["AI", "voice automation", "healthcare workflows"]
+    },
+    {
+      "id": "bp-2",
+      "text": "Implemented real-time speech processing and WebSocket-based communication to extract structured scheduling data from live patient conversations.",
+      "skills": ["WebSockets", "Asynchronous Programming", "API Integration"],
+      "impact": "medium",
+      "seniority_level": "intern",
+      "keywords": ["real-time systems", "event-driven architecture", "data extraction"]
+    },
+    {
+      "id": "bp-3",
+      "text": "Developed a full-stack interface using React and Supabase backed by SQL to manage patients, appointments, and call outcomes for nurse review.",
+      "skills": ["React", "Supabase", "SQL", "PostgreSQL"],
+      "impact": "medium",
+      "seniority_level": "intern",
+      "keywords": ["full-stack", "healthcare data", "system design"]
+    }
+  ]
+}

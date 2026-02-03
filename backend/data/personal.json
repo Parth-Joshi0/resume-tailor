@@ -1,0 +1,41 @@
+{
+  "personal": {
+    "name": "Parth Joshi",
+    "phone": "905-462-8586",
+    "email": "parthj787@gmail.com",
+    "linkedin": "https://linkedin.com/in/parth-joshi16",
+    "github": "https://github.com/Parth-Joshi0"
+  },
+
+  "education": [
+    {
+      "institution": "Western University",
+      "location": "London, Ontario",
+      "degree": "Bachelor of Science in Computer Science (BCompSc), Minor in Math",
+      "timeframe": "Sept 2024 -- Apr 2028"
+    }
+  ],
+
+  "skills": [
+    {
+      "label": "Languages",
+      "items": ["Python", "Java", "JavaScript", "TypeScript", "HTML/CSS", "Swift", "SQL", "C"]
+    },
+    {
+      "label": "Data & Analytics",
+      "items": ["Power BI", "Tableau", "Excel (Advanced)", "SQL/SQL Server", "Python (pandas, NumPy)", "statistical analysis"]
+    },
+    {
+      "label": "Frameworks & Tools",
+      "items": ["FastAPI", "TensorFlow", "SwiftUI", "Git", "REST APIs", "Power Platform", "Twilio API"]
+    },
+    {
+      "label": "Developer Tools",
+      "items": ["GitHub", "VS Code", "Xcode", "unit testing", "integration testing"]
+    },
+    {
+      "label": "Interests",
+      "items": ["Data Visualization", "Business Intelligence", "Algorithms", "Machine Learning", "Chess"]
+    }
+  ]
+}

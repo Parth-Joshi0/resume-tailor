@@ -1,0 +1,53 @@
+{
+    "project_id": "maple-sap-prediction",
+    "title": "Maple Sap Flow Prediction",
+    "type": "project",
+    "timeframe": "Nov 2025",
+    "status": "completed",
+
+    "summary": "Full-stack web application that analyzes 500K+ geospatial datapoints to forecast maple sap-flow windows, built using a Python data pipeline processing 20+ years of time-series data from NASA Earth Engine APIs.",
+
+    "tech_stack": ["Python", "FastAPI", "HTML", "CSS", "JavaScript", "NASA Earth Engine APIs"],
+    "domains": ["Data Science", "Geospatial Analysis", "Time-Series Forecasting", "Web Development", "Data Visualization"],
+    "skills": ["Feature Engineering", "Trend Analysis", "Normalization", "Predictive Modeling", "Data Storytelling", "Data Pipeline Development", "Statistical Modeling", "Rolling-Window Inference"],
+
+    "metrics": {
+      "datapoints_processed": "500K+",
+      "years_of_historical_data": "20+",
+      "prediction_noise_reduction": "40%",
+      "prize_won": "$400 (BramHacks 2025 Winner)"
+    },
+
+    "links": {
+      "github": "https://github.com/Parth-Joshi0/Maple-Sap-Flow-Prediction",
+      "demo": "",
+      "docs": ""
+    },
+
+    "bullet_points": [
+      {
+        "id": "maple-bp-1",
+        "text": "Developed full-stack web application analyzing 500K+ geospatial datapoints to forecast maple sap-flow windows, winning BramHacks 2025 ($400 prize) through effective data storytelling and visualization",
+        "skills": ["Full-Stack Development", "Geospatial Analysis", "Data Visualization", "Data Storytelling"],
+        "impact": "high",
+        "seniority_level": "intern",
+        "keywords": ["hackathon", "geospatial", "forecasting", "data storytelling", "visualization", "prize"]
+      },
+      {
+        "id": "maple-bp-2",
+        "text": "Built Python data pipeline to process 20+ years of time-series data from NASA Earth Engine APIs, implementing feature engineering, trend analysis and normalization algorithms to generate training data for predictive models",
+        "skills": ["Python", "Data Pipeline", "Feature Engineering", "Time-Series Analysis", "API Integration", "Normalization"],
+        "impact": "high",
+        "seniority_level": "intern",
+        "keywords": ["data pipeline", "NASA", "time-series", "feature engineering", "predictive modeling", "training data"]
+      },
+      {
+        "id": "maple-bp-3",
+        "text": "Developed rolling-window inference engine using historical data analysis, reducing prediction noise and improving temporal stability by 40% through statistical modeling techniques",
+        "skills": ["Statistical Modeling", "Inference Engine Design", "Historical Data Analysis", "Optimization"],
+        "impact": "high",
+        "seniority_level": "intern",
+        "keywords": ["rolling-window", "inference", "temporal stability", "statistical modeling", "noise reduction", "optimization"]
+      }
+    ]
+  }

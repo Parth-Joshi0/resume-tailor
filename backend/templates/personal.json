@@ -1,0 +1,41 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "phone": "123-456-7890",
+    "email": "your.email@example.com",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername"
+  },
+
+  "education": [
+    {
+      "institution": "University Name",
+      "location": "City, State/Province",
+      "degree": "Bachelor of Science in Computer Science (BCompSc), Minor in Math",
+      "timeframe": "Sept 2024 -- Apr 2028"
+    }
+  ],
+
+  "skills": [
+    {
+      "label": "Languages",
+      "items": ["Python", "Java", "JavaScript", "TypeScript", "Swift", "SQL", "C"]
+    },
+    {
+      "label": "Data & Analytics",
+      "items": ["Power BI", "Tableau", "Excel (Advanced)", "SQL/SQL Server", "Python (pandas, NumPy)", "statistical analysis"]
+    },
+    {
+      "label": "Frameworks & Tools",
+      "items": ["FastAPI", "TensorFlow", "SwiftUI", "Git", "REST APIs", "Power Platform", "Twilio API"]
+    },
+    {
+      "label": "Developer Tools",
+      "items": ["GitHub", "VS Code", "Xcode", "unit testing", "integration testing"]
+    },
+    {
+      "label": "Interests",
+      "items": ["Data Visualization", "Business Intelligence", "Algorithms", "Machine Learning", "Chess"]
+    }
+  ]
+}

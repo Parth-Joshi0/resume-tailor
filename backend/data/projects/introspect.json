@@ -1,0 +1,44 @@
+{
+    "project_id": "introspect",
+    "title": "Introspect",
+    "type": "project",
+    "timeframe": "Nov 2025",
+    "status": "completed",
+
+    "summary": "iOS application integrating Presage computer vision SDK to process 20+ microexpressions per second in real-time, providing adaptive social cue guidance for neurodivergent users via multi-API integration and live sensor monitoring.",
+
+    "tech_stack": ["Swift", "SwiftUI", "TypeScript", "REST APIs", "Presage SDK", "Gemini API", "ElevenLabs API"],
+    "domains": ["Mobile Development", "Computer Vision", "Accessibility", "Real-Time Processing", "Health Monitoring"],
+    "skills": ["iOS Development", "API Integration", "Real-Time Data Processing", "Computer Vision Integration", "Sensor Data Processing", "Text-to-Speech Integration"],
+
+    "metrics": {
+      "microexpressions_per_second": "20+",
+      "tts_latency": "<2s",
+      "apis_integrated": 3
+    },
+
+    "links": {
+      "github": "https://github.com/Parth-Joshi0/introspect",
+      "demo": "",
+      "docs": ""
+    },
+
+    "bullet_points": [
+      {
+        "id": "introspect-bp-1",
+        "text": "Developed iOS application using Swift and SwiftUI that integrates Presage computer vision SDK to process 20+ microexpressions per second in real-time, providing adaptive social cue guidance for neurodivergent users",
+        "skills": ["Swift", "SwiftUI", "iOS Development", "Computer Vision", "SDK Integration", "Real-Time Processing"],
+        "impact": "high",
+        "seniority_level": "intern",
+        "keywords": ["iOS", "computer vision", "microexpressions", "neurodivergent", "accessibility", "real-time", "SwiftUI"]
+      },
+      {
+        "id": "introspect-bp-2",
+        "text": "Integrated multiple REST APIs (Gemini API for contextual analysis, ElevenLabs for text-to-speech with <2s latency) and implemented real-time sensor data processing for pulse and breathing rate monitoring",
+        "skills": ["REST API Integration", "Gemini API", "ElevenLabs API", "Sensor Data Processing", "Latency Optimization"],
+        "impact": "medium",
+        "seniority_level": "intern",
+        "keywords": ["REST API", "Gemini", "ElevenLabs", "text-to-speech", "sensor", "pulse", "breathing", "latency"]
+      }
+    ]
+  }

@@ -1,0 +1,32 @@
+{
+  "project_id": "",
+  "title": "",
+  "type": "project",
+  "timeframe": "",
+  "status": "completed",
+
+  "summary": "",
+
+  "tech_stack": [],
+  "domains": [],
+  "skills": [],
+
+  "metrics": {},
+
+  "links": {
+    "github": "",
+    "demo": "",
+    "docs": ""
+  },
+
+  "bullet_points": [
+    {
+      "id": "",
+      "text": "",
+      "skills": [],
+      "impact": "medium",
+      "seniority_level": "intern",
+      "keywords": []
+    }
+  ]
+}

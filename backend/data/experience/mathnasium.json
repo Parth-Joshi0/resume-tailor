@@ -1,0 +1,40 @@
+{
+  "job_id": "mathnasium-math-instructor",
+  "title": "Math Instructor",
+  "company": "Mathnasium",
+  "location": "Waterdown, ON",
+  "timeframe": "Aug 2023 -- Aug 2024",
+  "type": "part-time",
+  "status": "completed",
+
+  "summary": "Educational role focused on analyzing student performance data, designing individualized learning plans, and developing structured roadmaps to improve student outcomes in mathematics.",
+
+  "tech_stack": ["Excel", "Data Analysis Tools"],
+  "domains": ["Education", "Data Analysis", "Performance Tracking", "Curriculum Development"],
+  "skills": ["Performance Analysis", "Data-Driven Decision Making", "Curriculum Design", "Learning Assessment", "Progress Tracking", "Individualized Instruction"],
+
+  "metrics": {
+    "students_taught": "multiple cohorts",
+    "learning_plans": "individualized per student",
+    "assessment_improvements": "consistent score increases"
+  },
+
+  "bullet_points": [
+    {
+      "id": "mathnasium-bp-1",
+      "text": "Analyzed student performance data to identify learning patterns and gaps, designing individualized problem-solving plans that improved accuracy and retention across core math topics",
+      "skills": ["Performance Analysis", "Data Analysis", "Pattern Recognition", "Curriculum Design", "Problem-Solving"],
+      "impact": "high",
+      "seniority_level": "part-time",
+      "keywords": ["performance data", "learning patterns", "individualized", "accuracy", "retention", "problem-solving"]
+    },
+    {
+      "id": "mathnasium-bp-2",
+      "text": "Developed structured learning roadmaps with measurable milestones, enabling students to track progress and consistently achieve higher assessment scores over multi-week cycles",
+      "skills": ["Learning Roadmap Design", "Milestone Planning", "Progress Tracking", "Assessment Design"],
+      "impact": "high",
+      "seniority_level": "part-time",
+      "keywords": ["roadmaps", "milestones", "progress tracking", "assessment scores", "structured learning"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "job_id": "",
+  "title": "Job Title",
+  "company": "Company Name",
+  "location": "City, State/Province",
+  "timeframe": "Month Year -- Present",
+  "type": "full-time",
+  "status": "current",
+
+  "summary": "",
+
+  "tech_stack": [],
+  "domains": [],
+  "skills": [],
+
+  "metrics": {},
+
+  "bullet_points": [
+    {
+      "id": "",
+      "text": "First bullet point describing key responsibility or achievement with \\textbf{quantifiable metrics}",
+      "skills": ["Skill 1", "Skill 2", "Skill 3"],
+      "impact": "high",
+      "seniority_level": "intern",
+      "keywords": ["keyword1", "keyword2", "keyword3"]
+    },
+    {
+      "id": "",
+      "text": "Second bullet point demonstrating impact on business outcomes",
+      "skills": ["Skill 4", "Skill 5"],
+      "impact": "medium",
+      "seniority_level": "intern",
+      "keywords": ["keyword4", "keyword5"]
+    },
+    {
+      "id": "",
+      "text": "Third bullet point highlighting technical implementation or process improvement",
+      "skills": ["Skill 6", "Skill 7"],
+      "impact": "medium",
+      "seniority_level": "intern",
+      "keywords": ["keyword6", "keyword7"]
+    }
+  ]
+}

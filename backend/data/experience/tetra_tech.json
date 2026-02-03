@@ -1,0 +1,57 @@
+{
+  "job_id": "tetra-tech-technical-specialist",
+  "title": "Technical Specialist I",
+  "company": "Tetra Tech -- Bruce Power Site",
+  "location": "Tiverton, ON",
+  "timeframe": "May 2025 -- Present",
+  "type": "full-time",
+  "status": "current",
+
+  "summary": "Technical role focused on developing Power BI dashboards, Power Apps automation solutions, and quality assurance testing for engineering workflows in a safety-critical nuclear environment.",
+
+  "tech_stack": ["Power BI", "Power Apps", "Power Platform", "SQL", "Excel"],
+  "domains": ["Business Intelligence", "Data Visualization", "Automation", "Quality Assurance", "Nuclear Engineering"],
+  "skills": ["Dashboard Development", "Data Visualization", "Process Automation", "Business Logic", "Schema Validation", "QA Testing", "Functional Testing", "Integration Testing", "Regression Testing"],
+
+  "metrics": {
+    "teams_supported": "10+",
+    "manual_processing_reduction": "30%",
+    "dashboards_created": "multiple",
+    "environment": "highly regulated nuclear"
+  },
+
+  "bullet_points": [
+    {
+      "id": "tetra-bp-1",
+      "text": "Developed interactive Power BI dashboards and reports to visualize engineering KPIs, project timelines, and resource allocation across \\textbf{10+ teams}, enabling data-driven decision-making for stakeholders",
+      "skills": ["Power BI", "Data Visualization", "Dashboard Development", "KPI Tracking"],
+      "impact": "high",
+      "seniority_level": "intern",
+      "keywords": ["Power BI", "dashboards", "KPIs", "data-driven", "stakeholders", "visualization"]
+    },
+    {
+      "id": "tetra-bp-2",
+      "text": "Configured Power Apps automation solutions and implemented custom business logic to streamline engineering workflows reducing manual processing time by \\textbf{30\\%}",
+      "skills": ["Power Apps", "Process Automation", "Business Logic", "Workflow Optimization"],
+      "impact": "high",
+      "seniority_level": "intern",
+      "keywords": ["Power Apps", "automation", "business logic", "workflows", "efficiency", "processing time"]
+    },
+    {
+      "id": "tetra-bp-3",
+      "text": "Engineered automated validation logic in Power Platform to enforce schema compliance, eliminating manual entry discrepancies and ensuring data integrity for safety-critical nuclear documentation",
+      "skills": ["Power Platform", "Data Validation", "Schema Compliance", "Data Integrity", "Automation"],
+      "impact": "high",
+      "seniority_level": "intern",
+      "keywords": ["validation", "schema compliance", "data integrity", "nuclear", "safety-critical", "automation"]
+    },
+    {
+      "id": "tetra-bp-4",
+      "text": "Performed end-to-end quality assurance testing (functional, integration, regression) on interconnected automation systems to ensure reliability in a highly regulated environment",
+      "skills": ["QA Testing", "Functional Testing", "Integration Testing", "Regression Testing", "Quality Assurance"],
+      "impact": "medium",
+      "seniority_level": "intern",
+      "keywords": ["QA", "testing", "functional", "integration", "regression", "reliability", "regulated"]
+    }
+  ]
+}
