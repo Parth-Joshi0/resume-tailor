@@ -11,22 +11,26 @@ A personal tool for managing and generating resume content using structured JSON
 ```
 resume-tailor/
 ├── backend/
-│   ├── model/                      # Data models (TBD)
-│   ├── data/                       # All resume data
-│   │   ├── personal.json           # Personal info, education, skills
-│   │   ├── projects/               # Project library (one file per project)
-│   │   │   ├── chess_engine.json
-│   │   │   ├── introspect.json
-│   │   │   ├── maple_sap_prediction.json
-│   │   │   └── nurse-ai-followup.json
-│   │   └── experience/             # Work experience (one file per job)
-│   │       ├── tetra_tech.json
-│   │       └── mathnasium.json
-│   └── templates/
-│       ├── project.json            # Base project template
-│       ├── experience_template.json # Base experience template
-│       └── resume.j2               # Jinja2 LaTeX template for full resume
-├── frontend/                       # (TBD)
+│   └── (backend code will go here)
+├── data/
+│   ├── experience/
+│   │   ├── mathnasium.json
+│   │   └── tetra_tech.json
+│   ├── projects/
+│   │   ├── chess_engine.json
+│   │   ├── introspect.json
+│   │   ├── maple_sap_prediction.json
+│   │   └── nurse-ai-followup.json
+│   ├── resumes/
+│   │   └── (Generate resumes will go here)
+│   └── personal.json
+├── frontend/
+│   └── (frontend code will go here)
+├── templates/
+│   ├── experience.json
+│   ├── personal.json
+│   ├── project.json
+│   └── resume.j2
 ├── LICENSE
 └── README.md
 ```
