@@ -1,0 +1,164 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Parth Joshi} \\ \vspace{1pt}
+    \small 905-462-8586 $|$ \href{mailto:parthj787@gmail.com}{\underline{ parthj787@gmail.com }} $|$
+    \href{https://linkedin.com/in/parth-joshi16}{\underline{https://linkedin.com/in/parth-joshi16}} $|$
+    \href{https://github.com/Parth-Joshi0}{\underline{https://github.com/Parth-Joshi0}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      { Western University }{ London, Ontario }
+      { Bachelor of Science in Computer Science (BCompSc), Minor in Math }{ Sept 2024 -- Apr 2028 }
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills \& Interests}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Languages}{: Python, Java, JavaScript, TypeScript, HTML/CSS, Swift, SQL, C} \\
+        \textbf{Data \& Analytics}{: Power BI, Tableau, Excel (Advanced), SQL/SQL Server, Python (pandas, NumPy)} \\
+        \textbf{Frameworks \& Tools}{: FastAPI, TensorFlow, SwiftUI, Git, REST APIs, Power Platform, Twilio API} \\
+        \textbf{Developer Tools}{: GitHub, VS Code, Xcode, unit testing, integration testing} \\
+        \textbf{Interests}{: Data Visualization, Business Intelligence, Algorithms, Machine Learning, Chess} \\
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      { Technical Specialist I }{ May 2025 -- Present }
+      { Tetra Tech -- Bruce Power Site }{ Tiverton, ON }
+      \resumeItemListStart
+        \resumeItem{Developed interactive Power BI dashboards and reports to visualize engineering KPIs, project timelines, and resource allocation across \textbf{10+ teams}, enabling data-driven decision-making for stakeholders}
+        \resumeItem{Configured Power Apps automation solutions and implemented custom business logic to streamline engineering workflows reducing manual processing time by \textbf{30\%}}
+        \resumeItem{Engineered automated validation logic in Power Platform to enforce schema compliance, eliminating manual entry discrepancies and ensuring data integrity for safety-critical nuclear documentation}
+        \resumeItem{Performed end-to-end quality assurance testing (functional, integration, regression) on interconnected automation systems to ensure reliability in a highly regulated environment}
+      \resumeItemListEnd
+    \resumeSubheading
+      { Math Instructor }{ Aug 2023 -- Aug 2024 }
+      { Mathnasium }{ Waterdown, ON }
+      \resumeItemListStart
+        \resumeItem{Analyzed student performance data to identify learning patterns and gaps, designing individualized problem-solving plans that improved accuracy and retention across core math topics}
+        \resumeItem{Developed structured learning roadmaps with measurable milestones, enabling students to track progress and consistently achieve higher assessment scores over multi-week cycles}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading{\textbf{Maple Sap Flow Prediction} $|$ \emph{Python, FastAPI, HTML/CSS/JavaScript, APIs} $|$ \href{https://github.com/Parth-Joshi0/Maple-Sap-Flow-Prediction}{\underline{GitHub}}}{Nov 2025}
+        \resumeItemListStart
+          \resumeItem{Developed full-stack web application analyzing \textbf{500K+ geospatial datapoints} to forecast maple sap-flow windows, winning BramHacks 2025 (\$400 prize) through effective data storytelling and visualization}
+          \resumeItem{Built Python data pipeline to process \textbf{20+ years} of time-series data from NASA Earth Engine APIs, implementing feature engineering, trend analysis and normalization algorithms to generate training data for predictive models}
+          \resumeItem{Developed rolling-window inference engine using historical data analysis, reducing prediction noise and improving temporal \textbf{stability by 40\%} through statistical modeling techniques}
+        \resumeItemListEnd
+        \resumeProjectHeading{\textbf{AI Appointment Follow-Up System} $|$ \emph{Python, FastAPI, SQL, React, JavaScript, WebSockets} $|$ \href{https://github.com/your-username/nurse-ai-followup}{\underline{GitHub}}}{Jan 2026}
+        \resumeItemListStart
+          \resumeItem{Designed and built an AI-powered outbound calling system that automates nurse-led appointment confirmations and rescheduling using natural voice interactions.}
+          \resumeItem{Implemented real-time speech processing and WebSocket-based communication to extract structured scheduling data from live patient conversations.}
+          \resumeItem{Developed a full-stack interface using React and Supabase backed by SQL to manage patients, appointments, and call outcomes for nurse review.}
+        \resumeItemListEnd
+        \resumeProjectHeading{\textbf{Chess Engine} $|$ \emph{Python, Game Tree Search, Alpha-Beta Pruning} $|$ \href{https://github.com/Parth-Joshi0/chess-game-engine}{\underline{GitHub}}}{Jan 2026}
+        \resumeItemListStart
+          \resumeItem{Achieved \textbf{$\sim$2000 Elo} by analyzing position patterns and implementing alpha-beta pruning with quiescence search, demonstrating data-driven optimization and algorithmic problem-solving}
+          \resumeItem{Optimized search performance through MVV-LVA move ordering and incremental evaluation updates during make/unmake operations, reaching 4-6 ply search depth at \textbf{10-25k nodes/second}}
+          \resumeItem{Built complete chess engine with all special moves (castling, en passant, promotion) and draw conditions (stalemate, repetition, 50-move rule)}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\end{document}
