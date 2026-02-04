@@ -59,6 +59,7 @@ def get_signals(jobDescription: str) -> dict:
     param: jobDescription
     :return: Json String of key signals
     '''
+    print("called Gemini")
     prompt = generate_jd_parsing_prompt(jobDescription)
     resp = client.models.generate_content(
         model="gemini-3-flash-preview",

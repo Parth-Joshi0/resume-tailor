@@ -96,6 +96,8 @@ def rank_projects_for_jd(projects: list, jd_parsed: dict) -> list:
 
     # Sort by total score descending
     scored_projects.sort(key=lambda x: x["score"]["total_score"], reverse=True)
+    project_titles = [project['project']['project_id'] for project in scored_projects]
 
-    return scored_projects
+    print(scored_projects)
+    return project_titles[0:3]
 

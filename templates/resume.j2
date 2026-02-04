@@ -91,58 +91,58 @@
 
 %----------HEADING----------
 \begin{center}
-    \textbf{\Huge \scshape {{ personal.name }}} \\ \vspace{1pt}
-    \small {{ personal.phone }} $|$ \href{mailto:{{ personal.email }}}{\underline{ {{ personal.email }} }} $|$ 
-    \href{ {{- personal.linkedin -}} }{\underline{ {{- personal.linkedin -}} }} $|$
-    \href{ {{- personal.github -}} }{\underline{ {{- personal.github -}} }}
+    \textbf{\Huge \scshape ((( personal.name )))} \\ \vspace{1pt}
+    \small ((( personal.phone ))) $|$ \href{mailto:((( personal.email )))}{\underline{ ((( personal.email ))) }} $|$
+    \href{((( personal.linkedin )))}{\underline{((( personal.linkedin )))}} $|$
+    \href{((( personal.github )))}{\underline{((( personal.github )))}}
 \end{center}
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
-{% for edu in education %}
+((* for edu in education *))
     \resumeSubheading
-      { {{- edu.institution -}} }{ {{- edu.location -}} }
-      { {{- edu.degree -}} }{ {{- edu.timeframe -}} }
-{% endfor %}
+      { ((( edu.institution ))) }{ ((( edu.location ))) }
+      { ((( edu.degree ))) }{ ((( edu.timeframe ))) }
+((* endfor *))
   \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------
 \section{Skills \& Interests}
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-{% for category in skills %}
-        \textbf{ {{- category.label -}} }{: {{ category.items | join(', ') }}} \\
-{% endfor %}
+((* for category in skills *))
+        \textbf{((( category["label"] )))}{: ((( category["items"] | join(', ') )))} \\
+((* endfor *))
     }}
 \end{itemize}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-{% for job in experience %}
+((* for job in experience *))
     \resumeSubheading
-      { {{- job.title -}} }{ {{- job.timeframe -}} }
-      { {{- job.company -}} }{ {{- job.location -}} }
+      { ((( job.title ))) }{ ((( job.timeframe ))) }
+      { ((( job.company ))) }{ ((( job.location ))) }
       \resumeItemListStart
-{% for bullet in job.bullet_points %}
-        \resumeItem{ {{- bullet.text -}} }
-{% endfor %}
+((* for bullet in job.bullet_points *))
+        \resumeItem{((( bullet.text )))}
+((* endfor *))
       \resumeItemListEnd
-{% endfor %}
+((* endfor *))
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
-{% for project in projects %}
-        \resumeProjectHeading{\textbf{ {{- project.title -}} } $|$ \emph{ {{- project.tech_stack | join(', ') -}} } $|$ \href{ {{- project.links.github -}} }{\underline{GitHub}}}{ {{- project.timeframe -}} }
+((* for project in projects *))
+        \resumeProjectHeading{\textbf{((( project.title )))} $|$ \emph{((( project.tech_stack | join(', ') )))} $|$ \href{((( project.links.github )))}{\underline{GitHub}}}{((( project.timeframe )))}
         \resumeItemListStart
-{% for bullet in project.bullet_points %}
-          \resumeItem{ {{- bullet.text -}} }
-{% endfor %}
+((* for bullet in project.bullet_points *))
+          \resumeItem{((( bullet.text )))}
+((* endfor *))
         \resumeItemListEnd
-{% endfor %}
+((* endfor *))
     \resumeSubHeadingListEnd
 
 \end{document}
