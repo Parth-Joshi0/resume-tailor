@@ -26,7 +26,7 @@
     "bullet_points": [
       {
         "id": "introspect-bp-1",
-        "text": "Developed iOS application using Swift and SwiftUI that integrates Presage computer vision SDK to process 20+ microexpressions per second in real-time, providing adaptive social cue guidance for neurodivergent users",
+        "text": "Developed iOS application using Swift and SwiftUI that integrates Presage computer vision SDK to process \\textbf{20+ microexpressions per second }in real-time, providing adaptive social cue guidance for neurodivergent users",
         "skills": ["Swift", "SwiftUI", "iOS Development", "Computer Vision", "SDK Integration", "Real-Time Processing"],
         "impact": "high",
         "seniority_level": "intern",
@@ -34,7 +34,7 @@
       },
       {
         "id": "introspect-bp-2",
-        "text": "Integrated multiple REST APIs (Gemini API for contextual analysis, ElevenLabs for text-to-speech with <2s latency) and implemented real-time sensor data processing for pulse and breathing rate monitoring",
+        "text": "Integrated multiple REST APIs (Gemini API for contextual analysis, ElevenLabs for text-to-speech with \\textbf{\\textless2s latency}) and implemented real-time sensor data processing for pulse and breathing rate monitoring",
         "skills": ["REST API Integration", "Gemini API", "ElevenLabs API", "Sensor Data Processing", "Latency Optimization"],
         "impact": "medium",
         "seniority_level": "intern",

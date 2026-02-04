@@ -11,12 +11,8 @@
     "Python",
     "FastAPI",
     "SQL",
-    "PostgreSQL",
-    "Supabase",
     "React",
     "JavaScript",
-    "Twilio",
-    "ElevenLabs",
     "WebSockets"
   ],
   "domains": [

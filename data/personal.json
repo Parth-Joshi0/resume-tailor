@@ -22,11 +22,11 @@
       "items": ["Python", "Java", "JavaScript", "TypeScript", "HTML/CSS", "Swift", "SQL", "C"]
     },
     {
-      "label": "Data & Analytics",
-      "items": ["Power BI", "Tableau", "Excel (Advanced)", "SQL/SQL Server", "Python (pandas, NumPy)", "statistical analysis"]
+      "label": "Data \\& Analytics",
+      "items": ["Power BI", "Tableau", "Excel (Advanced)", "SQL/SQL Server", "Python (pandas, NumPy)"]
     },
     {
-      "label": "Frameworks & Tools",
+      "label": "Frameworks \\& Tools",
       "items": ["FastAPI", "TensorFlow", "SwiftUI", "Git", "REST APIs", "Power Platform", "Twilio API"]
     },
     {

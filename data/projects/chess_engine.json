@@ -1,5 +1,5 @@
 {
-    "project_id": "chess-engine",
+    "project_id": "chess_engine",
     "title": "Chess Engine",
     "type": "project",
     "timeframe": "Jan 2026",
@@ -26,7 +26,7 @@
     "bullet_points": [
       {
         "id": "chess-bp-1",
-        "text": "Achieved ~2000 Elo by analyzing position patterns and implementing alpha-beta pruning with quiescence search, demonstrating data-driven optimization and algorithmic problem-solving",
+        "text": "Achieved \\textbf{$\\sim$2000 Elo} by analyzing position patterns and implementing alpha-beta pruning with quiescence search, demonstrating data-driven optimization and algorithmic problem-solving",
         "skills": ["Alpha-Beta Pruning", "Quiescence Search", "Pattern Analysis", "Algorithmic Optimization"],
         "impact": "high",
         "seniority_level": "intern",
@@ -34,7 +34,7 @@
       },
       {
         "id": "chess-bp-2",
-        "text": "Optimized search performance through MVV-LVA move ordering and incremental evaluation updates during make/unmake operations, reaching 4-6 ply search depth at 10-25k nodes/second",
+        "text": "Optimized search performance through MVV-LVA move ordering and incremental evaluation updates during make/unmake operations, reaching 4-6 ply search depth at \\textbf{10-25k nodes/second}",
         "skills": ["MVV-LVA Move Ordering", "Incremental Evaluation", "Search Optimization", "Performance Tuning"],
         "impact": "high",
         "seniority_level": "intern",
