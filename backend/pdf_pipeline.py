@@ -11,14 +11,13 @@ def getPersonalInfo(path: str = "../data/personal.json") -> dict:
     return data
 
 def getProjectsData(path: str = "../data/projects", selected_projects: list = []) -> dict:
-    path = Path(path)
     projects = []
 
-    for file in path.glob("*.json"):
-        with open(file, "r", encoding="utf-8") as f:
+    for project in selected_projects:
+        file = path + "/" + project + ".json"
+        with open(file, "r") as f:
             project = json.load(f)
-            if project['project_id'] in selected_projects:
-                projects.append(project)
+            projects.append(project)
 
     return {'projects': projects}
 

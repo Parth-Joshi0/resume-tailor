@@ -1,0 +1,42 @@
+{
+  "project_id": "drawing_recognition",
+  "title": "Handwritten Digit Classifier",
+  "type": "project",
+  "timeframe": "Oct 2025",
+  "status": "completed",
+  "summary": "Built a Tkinter desktop app that lets users draw digits (0–9) and runs real-time inference with a pretrained CNN (MNIST) to display the predicted digit and confidence.",
+  "tech_stack": ["python", "tkinter", "tensorflow", "keras", "numpy", "pillow"],
+  "domains": ["machine learning", "computer vision", "desktop applications"],
+  "skills": ["cnn modeling", "model training", "model inference", "image preprocessing", "ui development", "software modularization"],
+  "metrics": {
+    "dataset": "MNIST (70,000 images)",
+    "test_accuracy_range": "98–99%",
+    "epochs": "10–15",
+    "output_classes": 10,
+    "input_size": "28x28 grayscale",
+    "model_artifact": "digital_model.keras"
+  },
+  "links": {
+    "github": "https://github.com/Parth-Joshi0/DrawingRecognition",
+    "demo": "",
+    "docs": ""
+  },
+  "bullet_points": [
+    {
+      "id": "dr_01",
+      "text": "Developed an interactive Tkinter canvas app (brush/eraser/clear hotkeys) that captures drawings, preprocesses them (grayscale, invert, resize to 28×28), and performs real-time digit classification with a trained CNN, outputting prediction + confidence.",
+      "skills": ["python", "tkinter", "tensorflow", "keras", "computer vision", "image preprocessing"],
+      "impact": "medium",
+      "seniority_level": "intern",
+      "keywords": ["MNIST", "CNN", "real-time inference", "Tkinter UI", "ImageGrab", "confidence score", "preprocessing pipeline"]
+    },
+    {
+      "id": "dr_02",
+      "text": "Implemented a modular training pipeline to load MNIST .ubyte files, train a Conv2D/MaxPool CNN, and export the model as a reusable .keras artifact for deployment in the UI.",
+      "skills": ["model training", "data loading", "keras", "tensorflow", "python"],
+      "impact": "medium",
+      "seniority_level": "intern",
+      "keywords": ["training script", "model export", "digital_model.keras", "Conv2D", "Softmax"]
+    }
+  ]
+}
