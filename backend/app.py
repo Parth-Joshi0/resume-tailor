@@ -2,7 +2,7 @@ from backend.ai_client import get_signals, generate_jd_parsing_prompt
 import json
 from pathlib import Path
 
-from backend.pdf_pipeline import renderLatex
+from backend.pdf_pipeline import renderLatex, generatePdffromLatex
 from backend.scoring import rank_projects_for_jd
 
 def load_projects(projects_dir: str = "../data/projects") -> list[dict]:
@@ -30,7 +30,6 @@ Participate in data-related projects and initiatives, contributing to the develo
 Identify trends, patterns, and anomalies in data to support decision-making processes
 Continuously learn and stay up-to-date with the latest data analysis techniques and technologies
 
-
 About You
 Minimum Qualifications:
 Currently pursuing a degree in Data Science, Statistics, Computer Science, or a related field
@@ -38,7 +37,6 @@ Proficiency in SQL and data manipulation tools (e.g., Excel, Tableau, Power BI)
 Excellent communication and collaboration skills
 Ability to work independently and as part of a team
 Passion for data-driven insights and a desire to learn and grow
-
 
 Preferred Qualifications:
 Experience with programming languages such as Python or R
@@ -58,3 +56,4 @@ signals = get_signals(prompt)
 selected_projects = rank_projects_for_jd(load_projects(), signals)
 print(selected_projects)
 renderLatex(selected_projects=selected_projects)
+generatePdffromLatex()

@@ -1,9 +1,9 @@
 import json
-from xml.sax.handler import property_encoding
-
+import shutil
 from jinja2 import Environment, FileSystemLoader
 import subprocess
 from pathlib import Path
+import tempfile
 
 def getPersonalInfo(path: str = "../data/personal.json") -> dict:
     with open(path, 'r') as f:
@@ -58,3 +58,31 @@ def renderLatex(selected_projects: list, template_file: str = "../templates/resu
         f.write(rendered)
 
     return output_path
+
+def generatePdffromLatex(path: str = "../data/resumes/resume.tex", output_name="Parth Joshi.pdf"):
+    PDFLATEX = "/Library/TeX/texbin/pdflatex"
+
+    tex_path = Path(path).resolve()
+    output_dir = (Path(__file__).parent / "../data/resumes").resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = Path(tmp)
+
+        # Copy tex into temp dir
+        tmp_tex = tmp / tex_path.name
+        shutil.copy(tex_path, tmp_tex)
+
+        # Run LaTeX
+        subprocess.run(
+            [PDFLATEX, "-interaction=nonstopmode", tmp_tex.name],
+            cwd=tmp,
+            check=True
+        )
+
+        # Move + rename final PDF
+        generated_pdf = tmp_tex.with_suffix(".pdf")
+        final_pdf = output_dir / output_name
+        shutil.move(generated_pdf, final_pdf)
+
+    return final_pdf
